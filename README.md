@@ -8,7 +8,7 @@ Tensorflow based DQN Agent for 'MountainCar-V0' openai gym environment
 
 ## About the DQN Agent
 * The agent reached the goal position at epoch: 17
-* The agent policy begins to converge with no fail scenario from epoch:164 
+* The agent policy begins to converge with no fail scenario from epoch: 164 
 * Results,
     * Value Function Plot,
     <p ><img src="Value_function.png" width="500" ></p>
