@@ -12,10 +12,6 @@ Tensorflow based DQN Agent for 'MountainCar-V0' openai gym environment
 * Results,
     * Value Function Plot,
     <p ><img src="Value_function.png" width="500" ></p>
-    * Accumulated Reward Plot,
-    <p ><img src="Reward Plot.png" width="500" ></p>
-    * Episode Length Plot,
-    <p ><img src="Episode Length Plot.png" width="500" ></p>
 
 ## Dependencies
 Install dependencies using:
