@@ -1,25 +1,33 @@
-# Deep-Q Network Agent for 'MountainCar-V0'
-Tensorflow based DQN Agent for 'MountainCar-V0' openai gym environment
+# DQN & Dueling DQN Agents for 'MountainCar-v0'
 
-## Table of contents
-* DQN class algorithm based on,
-    <p ><img src="https://wiki.math.uwaterloo.ca/statwiki/images/9/9e/QLearning_Alg.JPG" width="450" ></p>
-* State-Space Surface Plot
+- Tensorflow based [DQN](DQN-TensorFlow2) Agent for 'MountainCar-v0' openai gym environment.
+- PyTorch based [DDQN](DDQN-PyTorch) Agent for 'MountainCar-v0' openai gym environment.
 
-## About the DQN Agent
-* The agent reached the goal position at epoch: 17
-* The agent policy begins to converge with no fail scenario from epoch: 164 
-* Results,
-    * Value Function Plot,
-    <p ><img src="Value_function.png" width="500" ></p>
+## Agent Training & Testing Profile
+
+ 1. DQN Agent
+
+    |Episode Length|Reward Plot|Value Plot|
+    |:--:|:--:|:--:|
+    |<p ><img src="DQN-TensorFlow2/Episode Length Plot.png"></p>|<p ><img src="DQN-TensorFlow2/Reward Plot.png"></p>|<p ><img src="DQN-TensorFlow2/Value_function.png" ></p>|
+
+ 2. DDQN Agent
+
+    <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="450"></p>
 
 ## Dependencies
+
 Install dependencies using:
+
 ```bash
-pip3 install -r requirements.txt 
+pip install -r requirements.txt 
 ```
-## Challenge
-* Achieve the goal position with optimum episode length
+
+## TODO
+
+- Profile DQN similar to DDQN. The laptop I use breaks while installing TF2 :(
 
 ## Contact
-* email: navalekanishk@gmail.com
+
+- Email: navalekanishk@gmail.com
+- Website: <https://kanishknavale.github.io/>
