@@ -5,7 +5,7 @@
 
 ## Agent Training & Testing Profile
 
- 1. DQN Agent
+ 1. DQN Agent (Testing Profile)
 
     |Episode Length|Reward Plot|Value Plot|
     |:--:|:--:|:--:|
@@ -13,7 +13,7 @@
 
  2. DDQN Agent
 
-    <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="450"></p>
+    <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="500"></p>
 
 ## Dependencies
 
