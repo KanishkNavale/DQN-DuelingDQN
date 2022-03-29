@@ -23,7 +23,7 @@ if __name__ == '__main__':
     data_path = os.path.abspath('DDQN-PyTorch/data')
 
     # Init. Training
-    n_games: int = 500
+    n_games: int = 1500
     best_score = -np.inf
     score_history: List[float] = [] * n_games
     avg_history: List[float] = [] * n_games
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
         if avg_score > best_score:
             best_score = avg_score
-            agent.save_models()
+            agent.save_models('DDQN-PyTorch/data')
             print(f'Episode:{i}'
                   f'\t ACC. Rewards: {score:3.2f}'
                   f'\t AVG. Rewards: {avg_score:3.2f}'

@@ -1,0 +1,8 @@
+# Environemts
+*.vscode*
+
+# Python Cache
+*__pycache__*
+
+# tensorboard
+*tensorboard*
