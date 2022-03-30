@@ -5,13 +5,13 @@
 
 ## Agent Training & Testing Profile
 
- 1. DQN Agent
+ 1. DDQN Agent
 
-      <p ><img src="DQN-Tensorflow2/data/DQN Agent Training & Testing.png" width="450"></p>
+      <p ><img src="DDQN-PyTorch/data/DDQN Agent Profiling.png"></p>
 
- 2. DDQN Agent
+ 2. DQN Agent
 
-      <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="450"></p>
+      <p ><img src="DQN-Tensorflow2/data/DQN Agent Profiling.png"></p>
 
 ## Dependencies
 
