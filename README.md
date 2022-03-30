@@ -7,13 +7,11 @@
 
  1. DQN Agent
 
-    |Episode Length|Reward Plot|Value Plot|
-    |:--:|:--:|:--:|
-    |<p ><img src="DQN-TensorFlow2/Episode Length Plot.png"></p>|<p ><img src="DQN-TensorFlow2/Reward Plot.png"></p>|<p ><img src="DQN-TensorFlow2/Value_function.png" ></p>|
+      <p ><img src="DQN-Tensorflow2/data/DQN Agent Training & Testing.png" width="450"></p>
 
  2. DDQN Agent
 
-    <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="450"></p>
+      <p ><img src="DDQN-PyTorch/data/DDQN Agent Training & Testing.png" width="450"></p>
 
 ## Dependencies
 
@@ -22,10 +20,6 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt 
 ```
-
-## TODO
-
-- Profile DQN similar to DDQN. The laptop I use breaks while installing TF2 :(
 
 ## Contact
 
